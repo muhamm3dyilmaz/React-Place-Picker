@@ -12,8 +12,6 @@ function Modal({ open, children }) {
     }
   }, [open]);
 
-
-
   return createPortal(
     <dialog className="modal" ref={dialog}>
       {open ? children : null}
